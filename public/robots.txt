@@ -1,0 +1,30 @@
+# --------------------------------------------
+# Robots.txt — Nurbek Dusyarov rasmi sayti
+# Maqsad: SEO indeksatsiya va bot boshqaruvi
+# --------------------------------------------
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Crawl-delay: 10
+
+# Sayt xaritasi (Google, Bing va Yandex uchun)
+Sitemap: https://nurbekdusyarov.uz/sitemap.xml
+
+# Google-bot maxsus optimizatsiya
+User-agent: Googlebot
+Allow: /
+
+# Media fayllar uchun
+User-agent: Googlebot-Image
+Allow: /images/
+
+# YouTube Preview uchun
+User-agent: Twitterbot
+User-agent: FacebookExternalHit
+Allow: /
+
+# Canonical manzil
+Host: nurbekdusyarov.uz

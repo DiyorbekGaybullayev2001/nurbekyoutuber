@@ -1,11 +1,106 @@
 <!doctype html>
-<html lang="en">
+<html lang="uz">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Nurbek Dusyarov - Youtuber Content Maker</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Nurbek Dusyarov — Youtuber & Content Maker</title>
+    <meta name="description" content="Nurbek Dusyarov — Youtuber va Kontent Yaratuvchi. YouTube orqali pul ishlash va hamkorlik imkoniyatlari." />
+    <meta name="keywords" content="Nurbek Dusyarov, YouTube, youtuber, kontent yaratuvchi, dasturchi, portfolio, hamkorlik, videoblog, o'zbek youtuber" />
+    <!-- Icons & PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./banner.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./banner.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#0ea5a4" />
+
+    <!-- Uzbek -->
+    <meta name="description" lang="uz" content="Nurbek Dusyarov — Youtuber va Kontent Yaratuvchi. Web loyihalar, YouTube orqali pul ishlash va hamkorlik imkoniyatlari." />
+    <meta name="keywords" lang="uz" content="Nurbek Dusyarov, YouTube, youtuber, kontent yaratuvchi, dasturchi, portfolio, hamkorlik, videoblog, o'zbek youtuber" />
+
+    <!-- Russian -->
+    <meta name="description" lang="ru" content="Нурбек Дусьяров — Ютубер и контент-мейкер. Веб-проекты, создание контента, сотрудничество и обучение." />
+    <meta name="keywords" lang="ru" content="Нурбек Дусьяров, YouTube, блогер, контент-мейкер, портфолио, сотрудничество, обучение, IT" />
+
+    <!-- English -->
+    <meta name="description" lang="en" content="Nurbek Dusyarov — YouTuber and Content Maker. Web projects, content creation, collaborations, and learning opportunities." />
+    <meta name="keywords" lang="en" content="Nurbek Dusyarov, YouTube, YouTuber, content creator, developer, portfolio, collaboration, tech creator" />
+
+    <meta name="author" content="Nurbek Dusyarov" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="rating" content="General" />
+    <meta name="copyright" content="© 2025 Nurbek Dusyarov. All Rights Reserved." />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://nurbekdusyarov.uz/" />
+
+    <!-- Open Graph (Facebook, Telegram, LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="uz_UZ" />
+    <meta property="og:title" content="Nurbek Dusyarov — YouTuber & Content Maker" />
+    <meta property="og:description" content="Nurbek Dusyarov — YouTuber, Content Maker va kontent yaratuvchi. Hamkorlik va yangi loyihalar uchun aloqaga chiqing." />
+    <meta property="og:url" content="https://nurbekdusyarov.uz/" />
+    <meta property="og:site_name" content="Nurbek Dusyarov" />
+    <meta property="og:image" content="https://nurbekdusyarov.uz/images/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Nurbek Dusyarov — Developer & YouTuber" />
+    <meta name="twitter:description" content="Youtuber, Developer va kontent yaratuvchi. Web va YouTube loyihalar haqida." />
+    <meta name="twitter:site" content="@nurbek_dusyarov" />
+    <meta name="twitter:image" content="https://nurbekdusyarov.uz/images/og-image.png" />
+
+    <!-- Icons & PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#0ea5a4" />
+
+    <!-- Preload Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Structured Data (Person Schema) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Nurbek Dusyarov",
+        "url": "https://nurbekdusyarov.uz/",
+        "sameAs": [
+          "https://www.linkedin.com/in/nurbekdusyarov",
+          "https://twitter.com/nurbek_dusyarov",
+          "https://www.instagram.com/nurbekdusyarov"
+        ],
+        "jobTitle": "Developer & Content Creator",
+        "description": "Nurbek Dusyarov — Youtuber va Kontent Yaratuvchi. Texnologiya va kontent yaratuvchilik bo‘yicha loyihalar muallifi.",
+        "image": "https://nurbekdusyarov.uz/images/og-image.png",
+        "nationality": "Uzbekistan",
+        "birthPlace": "Tashkent, Uzbekistan"
+      }
+    </script>
+
+    <!-- Structured Data (WebSite Schema) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://nurbekdusyarov.uz/",
+        "name": "Nurbek Dusyarov — Content Creator & Youtuber",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://nurbekdusyarov.uz/?s={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
