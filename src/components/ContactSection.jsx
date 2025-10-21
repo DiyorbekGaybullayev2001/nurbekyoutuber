@@ -9,28 +9,50 @@ import {
   Twitter,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { useToast } from "@/hooks/use-toast";
+// import { useToast } from "@/hooks/use-toast";
+ import { ToastContainer, toast } from 'react-toastify';
 import { useState } from "react";
+import axios from "axios";
 
 export const ContactSection = () => {
-  const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
     setIsSubmitting(true);
+    const token = "7825701840:AAE72IU_urEQ3B-AvXaFNeLw0ytyGwywWqM";
+    const chatId = 6079644484;
+    const url = `https://api.telegram.org/bot${token}/sendMessage`;
 
-    setTimeout(() => {
-      toast({
-        title: "Message sent!",
-        description: "Thank you for your message. I'll get back to you soon.",
-      });
+    const nameInput = document.getElementById("name");
+    const telInput = document.getElementById("nomer");
+    const textsInput = document.getElementById("message");
+
+    const name = nameInput?.value;
+    const tel = telInput?.value;
+    const texts = textsInput?.value;
+
+    const message = `📩 *Yangi xabar!* \n 👤 Ism: ${name} \n 📞 Telefon: ${tel} \n 💬 Xabar: ${texts}`;
+
+    axios.post(url, {
+      chat_id: chatId,
+      text: message,
+    })
+    .then(() => {
+      const form = document.getElementById("formID");
+      form?.reset();
+      toast.success("Muvoffaqiyatli yuborildi !");
+    })
+    .catch(() => {
+      toast.error("Xabar yuborishda xato !");
+    })
+    .finally(() => {
       setIsSubmitting(false);
-    }, 1500);
+    });
   };
   return (
     <section id="contact" className="py-24 px-4 relative bg-secondary/30">
+      <ToastContainer />
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           Get In <span className="text-primary"> Touch</span>
@@ -109,13 +131,10 @@ export const ContactSection = () => {
             </div>
           </div>
 
-          <div
-            className="bg-card p-8 rounded-lg shadow-xs"
-            onSubmit={handleSubmit}
-          >
+          <div className="bg-card p-8 rounded-lg shadow-xs">
             <h3 className="text-2xl font-semibold mb-6">Xabar yuborish</h3>
 
-            <form className="space-y-6">
+            <form className="space-y-6" id="formID" onSubmit={handleSubmit}>
               <div>
                 <label
                   htmlFor="name"
