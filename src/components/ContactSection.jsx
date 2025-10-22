@@ -1,6 +1,6 @@
 import {
   Instagram,
-  Linkedin,
+  // Telegram,
   Mail,
   MapPin,
   Phone,
@@ -55,12 +55,11 @@ export const ContactSection = () => {
       <ToastContainer />
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-          Get In <span className="text-primary"> Touch</span>
+          Men <span className="text-primary"> Bog'lanish</span>
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Have a project in mind or want to collaborate? Feel free to reach out.
-          I'm always open to discussing new opportunities.
+            Biror loyihangiz bormi yoki hamkorlik qilmoqchimisiz? Bemalol murojaat qilishingiz mumkin. Men doimo yangi imkoniyatlarni muhokama qilishga tayyorman.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -113,20 +112,20 @@ export const ContactSection = () => {
             </div>
 
             <div className="pt-8">
-              <h4 className="font-medium mb-4">Men bilan bog'laning</h4>
-              <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
-                  <Linkedin />
+              <h4 className="font-medium mb-4 text-2xl">Ijtimoiy sahifalarim</h4>
+              <div className=" space-x-4 ">
+                {/* <a href="#" target="_blank">
+                  <Telegram />
+                </a> */}
+                <a href="https://t.me" target="_blank" className="flex items-center gap-2 hover:text-primary transition-colors mb-2  text-semibold">
+                  <Send className="text-primary" /> Telegram
                 </a>
-                <a href="#" target="_blank">
-                  <Twitter />
+                <a href="https://www.instagram.com" target="_blank" className="flex items-center gap-2 hover:text-primary transition-colors mb-2 text-semibold">
+                  <Instagram className="text-primary" /> Instagram
                 </a>
-                <a href="#" target="_blank">
-                  <Instagram />
-                </a>
-                <a href="#" target="_blank">
+                {/* <a href="#" target="_blank">
                   <Twitch />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

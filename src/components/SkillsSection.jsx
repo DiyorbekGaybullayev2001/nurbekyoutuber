@@ -100,7 +100,7 @@ export const SkillsSection = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {COURSES.map((c) => (
-                        <article key={c.id} className="bg-card p-6 rounded-lg shadow-xs flex flex-col">
+                        <article key={c.id} className="bg-card p-6 rounded-lg shadow-xs flex flex-col card-hover">
                             {/* Kurs rasm */}
                             {c.image && (
                                 <img
