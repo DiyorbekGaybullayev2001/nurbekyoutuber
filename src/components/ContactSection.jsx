@@ -20,8 +20,8 @@ export const ContactSection = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    const token = "7825701840:AAE72IU_urEQ3B-AvXaFNeLw0ytyGwywWqM";
-    const chatId = 6079644484;
+    const token = "8380252689:AAHmZvPdI7Ky317LsR8r2srWT-LaEyzI0ck";
+    const chatId = 761599828;
     const url = `https://api.telegram.org/bot${token}/sendMessage`;
 
     const nameInput = document.getElementById("name");

@@ -42,8 +42,8 @@ export const SkillsSection = () => {
 	const [isSubmitting, setIsSubmitting] = useState(false);
 
 	// Telegram bot config (same as ContactSection)
-	const token = "7825701840:AAE72IU_urEQ3B-AvXaFNeLw0ytyGwywWqM";
-	const chatId = 6079644484;
+	const token = "8380252689:AAHmZvPdI7Ky317LsR8r2srWT-LaEyzI0ck";
+	const chatId = 761599828;
 	const url = `https://api.telegram.org/bot${token}/sendMessage`;
 
 	const openModal = (courseId) => setActiveCourse(courseId);
