@@ -1,6 +1,6 @@
 import { ArrowDown } from "lucide-react";
 import { ReactTyped } from "react-typed";
-import imgs from "../../public/projects/project1.png";
+import imgs from "../../public/projects/img1.webp";
 
 export const HeroSection = () => {
   return (
@@ -9,11 +9,11 @@ export const HeroSection = () => {
     
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col items-center justify-center px-4"
+      className="relative h-screen sm:h-[90vh] flex flex-col items-center justify-center px-4 mt-5 md:mt-10 overflow-hidden"
     >
       <div className="container max-w-7xl mx-auto text-left flex z-10 flex-col md:flex-row items-center gap-8">
         <div className="space-y-6 w-full md:w-1/2">
-          <h1 className="text-3xl md:text-5xl font-bold tracking-tight">
+          <h1 className="text-3xl md:text-6xl font-bold tracking-tight">
             <div>
               <br />
               <ReactTyped className="!text-left" strings={["Nurbek Dusyarov "]} typeSpeed={50} />
@@ -36,12 +36,12 @@ export const HeroSection = () => {
               
            
             </h1>
-        </div>
-           <div className="w-full md:w-1/2 flex justify-center">
+          </div>
+           <div className="w-full h-[90%] rounded-full md:w-1/2 flex justify-center">
             <img
               src={imgs}
               alt="Img Logo User"
-              className="w-full max-w-xs sm:max-w-sm md:max-w-md mx-auto mt-6 object-cover shadow-lg rounded-lg"
+              className="w-full max-w-xs border-4 border-primary border-shadow rounded-full sm:max-w-sm md:max-w-md mx-auto mt-6 object-cover shadow-lg "
             />
           </div>
       </div>

@@ -64,14 +64,31 @@ export const ContactSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="space-y-8">
+            <div className="pt-8">
+              <h4 className=" mb-4 text-4xl font-bold"> Ijtimoiy <span className="text-primary">Tarmoqlar</span></h4>
+              <div className=" space-x-4 text-2xl">
+                {/* <a href="#" target="_blank">
+                  <Telegram />
+                </a> */}
+                <a href="https://t.me/youtube_school_01" target="_blank" className="flex items-center gap-2 hover:text-primary transition-colors mb-2  text-semibold">
+                  <Send className="text-primary" /> Telegram
+                </a>
+                <a href="https://www.instagram.com/nurbek_youtuber" target="_blank" className="flex items-center gap-2 hover:text-primary transition-colors mb-2 text-semibold">
+                  <Instagram className="text-primary" /> Instagram
+                </a>
+                {/* <a href="#" target="_blank">
+                  <Twitch />
+                </a> */}
+              </div>
+            </div>
             <h3 className="text-3xl font-semibold mb-6">
               {" "}
               Aloqa
             </h3>
 
             <div className="space-y-6 justify-center">
-              <div className="flex items-start space-x-4">
-                <div className="p-3 rounded-full bg-primary/10">
+              {/* <div className="flex items-start space-x-4"> */}
+                {/* <div className="p-3 rounded-full bg-primary/10">
                   <Mail className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
@@ -97,7 +114,7 @@ export const ContactSection = () => {
                     +99 123 456 7890
                   </a>
                 </div>
-              </div>
+              </div> */}
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <MapPin className="h-6 w-6 text-primary" />{" "}
@@ -111,23 +128,7 @@ export const ContactSection = () => {
               </div>
             </div>
 
-            <div className="pt-8">
-              <h4 className="font-medium mb-4 text-2xl">Ijtimoiy sahifalarim</h4>
-              <div className=" space-x-4 ">
-                {/* <a href="#" target="_blank">
-                  <Telegram />
-                </a> */}
-                <a href="https://t.me" target="_blank" className="flex items-center gap-2 hover:text-primary transition-colors mb-2  text-semibold">
-                  <Send className="text-primary" /> Telegram
-                </a>
-                <a href="https://www.instagram.com" target="_blank" className="flex items-center gap-2 hover:text-primary transition-colors mb-2 text-semibold">
-                  <Instagram className="text-primary" /> Instagram
-                </a>
-                {/* <a href="#" target="_blank">
-                  <Twitch />
-                </a> */}
-              </div>
-            </div>
+            
           </div>
 
           <div className="bg-card p-8 rounded-lg shadow-xs">

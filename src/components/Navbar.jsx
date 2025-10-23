@@ -6,7 +6,7 @@ const navItems = [
   { name: "Asosiy", href: "#hero" },
   { name: "Men haqimda", href: "#about" },
   { name: "Kurslar", href: "#courses" },
-  { name: "Loyihalar", href: "#projects" },
+  // { name: "Loyihalar", href: "#projects" },
   { name: "Aloqa", href: "#contact" },
 ];
 
