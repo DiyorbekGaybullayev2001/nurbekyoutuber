@@ -32,8 +32,8 @@ export const HeroSection = () => {
           <img
             src={profileImg}
             alt="User Portrait"
-            width="800"
-            height="800"
+            width="600"
+            height="600"
             loading="eager"
             decoding="async"
             className="w-full max-w-xs border-4 border-primary rounded-full sm:max-w-sm md:max-w-md mx-auto mt-6 object-cover shadow-lg"

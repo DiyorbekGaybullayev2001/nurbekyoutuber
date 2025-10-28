@@ -18,16 +18,16 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              Men — <span className="text-primary text-xl text-semibold">Nurbek Dusyarov Mansur o‘g‘li</span> 1996-yil 2-dekabrda Samarqand viloyati, Narpay tumanida tug‘ilganman. Yoshligimdan ijodkorlikka qiziqishim meni kontent yaratish sohasida professional faoliyatga olib kirdi.
+
+Content Maker sifatida 11+ yil, YouTube platformasida esa 9+ yil tajribaga egaman. Bu davr davomida videokontent ishlab chiqish, kreativ ssenariy yaratish va keng auditoriya bilan ishlash bo‘yicha katta amaliy bilimga ega bo‘ldim.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+             Toshkent davlat axborot texnologiyalari universiteti bitiruvchisiman (2018–2022). 
+11 yil davomida Toshkentda ijod qildim, hozirda esa Navoiy IT Parkda faoliyat yuritmoqdaman.
+
+Men uchun kontent — bu nafaqat tasvir, balki tomoshabinning qalbiga va ongiga ta’sir qiladigan kuchli hikoya. Har bir loyihaga mas’uliyat bilan yondashaman va doimo yangilikka intilaman.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -46,16 +46,20 @@ export const AboutSection = () => {
           </div>
 
           <div className="grid grid-cols-1 gap-6">
+            <div>
+              <h3 className="text-3xl font-semibold"> Nega aynan 
+              <span className="text-primary text-3xl text-semibold "> men ?</span>
+            </h3>
+            </div>
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <VideoIcon className="h-6 w-6 text-primary" />
+                  <Youtube className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg"> Katta va real tajriba</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    11+ yillik Content Maker, 9+ yillik YouTube tajribasi — bu men faqat o‘rganmaganman, balki natija berganman degani.
                   </p>
                 </div>
               </div>
@@ -66,10 +70,9 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">O‘z vaqtida va sifat kafolatli natija</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Ish jarayonida tartib, muddatga hurmat va mukammal detal — mening asosiy prinsiplarimdan.
                   </p>
                 </div>
               </div>
@@ -77,14 +80,13 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Youtube className="h-6 w-6 text-primary" />
+                  <VideoIcon className="h-6 w-6 text-primary" />
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Har doim rivojlanishga intilaman</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Media bozori o‘zgaradi — men esa trendlarning markazida bo‘laman. Yangi bilim, yangi uslub, yangi yondashuv — mening kundalik odatim.
                   </p>
                 </div>
               </div>

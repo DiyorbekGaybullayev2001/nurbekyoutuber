@@ -5,20 +5,24 @@ import { Send, X, ChevronRight } from "lucide-react";
 import { toast } from "react-toastify";
 
 // rasmlarni projektga qo'ying: public/projects/animals.png, beamng.png, gita.png
-import animalsImg from "../../public/projects/project1.png";
-import beamngImg from "../../public/projects/project2.png";
-import gitaImg from "../../public/projects/project3.png";
+import animalsImg from "../../public/projects/animals.webp";
+import beamngImg from "../../public/projects/beamng.webp";
+import gitaImg from "../../public/projects/gita.webp";
 
 const COURSES = [
     {
         id: "animatsiya",
-        title: "Animals",
-        subtitle: "YouTube orqali hayvonlar kontenti bilan pul ishlash",
+        title: "Animals Animation",
+        subtitle: "YouTube orqali hayvonlar kontenti yaratish",
         image: animalsImg,
         bullets: [
-            "Kontent g'oyalari: qayerdan trend topish",
-            "Ssenariy va montaj tezkor usullari",
-            "Monetizatsiya: reklama, affiliate, merch",
+            "0 dan boshlab urgatiladigan video darslarni ko'rish",
+            "Yopiq guruhlarga ruhsat ",
+            "Savol javob uchun umumiy chat",
+            "Men bilan har hafta jonli efirlar",
+            "Pullik 3D hayvonlar va modellar to'plami sovg'a",
+            "Kursni tugatgandan so'ng oflayn master-klass",
+            "Qullab quvvatlash va maslahatlar",
         ],
     },
     {
@@ -27,20 +31,28 @@ const COURSES = [
         subtitle: "BeamNG simulatsiyalaridan video kontent yaratish",
         image: beamngImg,
         bullets: [
-            "Mashina fizikasi va spektakl sahnalar yaratish",
-            "Overlay va ovoz dizayni bilan premium video",
-            "Sustaining views: seriyalar va SEO",
+             "0 dan boshlab urgatiladigan video darslarni ko'rish",
+            "Yopiq guruhlarga ruhsat ",
+            "Savol javob uchun umumiy chat",
+            "Men bilan har hafta jonli efirlar",
+            "Pullik Modlar va 3D modellar to'plami sovg'a",
+            "Kursni tugatgandan so'ng oflayn master-klass",
+            "Qullab quvvatlash va maslahatlar",
         ],
     },
     {
         id: "gita",
-        title: "Gita V",
-        subtitle: "Gita (Git + Agile) asosida loyihalar ko'rsatish va kurs",
+        title: "GTA V",
+        subtitle: "GTA V o'yinidan video kontent yaratish",
         image: gitaImg,
         bullets: [
-            "Git branching, PR workflow va yaxshi amaliyotlar",
-            "Loyihani dokumentatsiya qilish va case study",
-            "YouTube'da o'qituvchi sifatida pul ishlash strategiyalari",
+            "0 dan boshlab urgatiladigan video darslarni ko'rish",
+            "Yopiq guruhlarga ruhsat ",
+            "Savol javob uchun umumiy chat",
+            "Men bilan har hafta jonli efirlar",
+            "Pullik Qahramonlar va modellar to'plami sovg'a",
+            "Kursni tugatgandan so'ng oflayn master-klass",
+            "Qullab quvvatlash va maslahatlar",
         ],
     },
 ];
@@ -91,11 +103,11 @@ export const SkillsSection = () => {
         <section id="courses" className="py-24 px-4 relative bg-secondary/30">
             <div className="container mx-auto max-w-5xl">
                 <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
-                    Kurslarimiz — <span className="text-primary">3 tur</span>
+                    Kurslarimiz — <span className="text-primary">turlari</span>
                 </h2>
 
                 <p className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto">
-                    YouTube orqali pul ishlash bo'yicha amaliy kurslar. Har bir kurs uchun batafsil ma'lumot va ro'yxatdan o'tish tugmasi mavjud.
+                    YouTube orqali pul ishlash bo'yicha amaliy kurslar. Har bir kurs uchun batafsil ma'lumot olib, o'zingizga mos kursni tanlang va ro'yxatdan o'ting.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

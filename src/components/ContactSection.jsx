@@ -7,6 +7,7 @@ import {
   Send,
   Twitch,
   Twitter,
+  Youtube,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 // import { useToast } from "@/hooks/use-toast";
@@ -76,9 +77,9 @@ export const ContactSection = () => {
                 <a href="https://www.instagram.com/nurbek_youtuber" target="_blank" className="flex items-center gap-2 hover:text-primary transition-colors mb-2 text-semibold">
                   <Instagram className="text-primary" /> Instagram
                 </a>
-                {/* <a href="#" target="_blank">
-                  <Twitch />
-                </a> */}
+                <a href="https://www.youtube.com/@nurbek_dusyarov" target="_blank" className="flex items-center gap-2 hover:text-primary transition-colors mb-2 text-semibold">
+                  <Youtube className=" text-primary" /> Youtube
+                </a>
               </div>
             </div>
             <h3 className="text-3xl font-semibold mb-6">
@@ -122,7 +123,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Manzil</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
-                    Uzbekiston
+                    Navoiy shahar, O'zbekiston
                   </a>
                 </div>
               </div>
