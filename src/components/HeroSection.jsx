@@ -62,8 +62,8 @@ export const HeroSection = () => {
           <div className="relative w-full max-w-lg">
             {/* Large circular photo */}
             <button
-              onClick={() => openLightbox(imgMain, "Nurbek - Profile")}
-              className="relative block rounded-full overflow-hidden shadow-2xl ring-4 ring-primary/20 transition-transform transform hover:scale-105"
+              onClick={() => openLightbox(imgMain, "Nurbek - Dusyarov")}
+              className="relative block rounded-full overflow-hidden cursor-pointer shadow-2xl ring-4 ring-primary/20 transition-transform transform hover:scale-105"
               aria-label="Open main photo"
             >
               <img
@@ -77,8 +77,8 @@ export const HeroSection = () => {
 
             {/* Top-left small tile */}
             <button
-              onClick={() => openLightbox(imgA, "Project Shot A")}
-              className="absolute -left-6 -top-6 w-28 h-28 rounded-lg overflow-hidden shadow-lg group transition-transform transform hover:scale-105"
+              onClick={() => openLightbox(imgA, "Nurbek - Dusyarov ")}
+              className="absolute -left-6 -top-6 w-28 h-28 cursor-pointer rounded-lg overflow-hidden shadow-lg group transition-transform transform hover:scale-105"
               aria-label="Open shot A"
             >
               <img src={imgA} alt="Shot A" className="w-full h-full object-cover" />
@@ -87,8 +87,8 @@ export const HeroSection = () => {
 
             {/* Bottom-right small tile */}
             <button
-              onClick={() => openLightbox(imgB, "Project Shot B")}
-              className="absolute -right-6 -bottom-6 w-32 h-32 rounded-lg overflow-hidden shadow-lg group transition-transform transform hover:scale-105"
+              onClick={() => openLightbox(imgB, "Nurbek - Dusyarov")}
+              className="absolute -right-6 -bottom-6 w-32 h-32 cursor-pointer rounded-lg overflow-hidden shadow-lg group transition-transform transform hover:scale-105"
               aria-label="Open shot B"
             >
               <img src={imgB} alt="Shot B" className="w-full h-full object-cover" />
