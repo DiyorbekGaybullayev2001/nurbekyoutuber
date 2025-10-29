@@ -1,5 +1,5 @@
 # --------------------------------------------
-# Robots.txt — Nurbek Dusyarov rasmi sayti
+# Robots.txt — Nurbek Dusyarov rasmiy sayti
 # Maqsad: SEO indeksatsiya va bot boshqaruvi
 # --------------------------------------------
 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Asosiy sahifa -->
+  <url>
+    <loc>https://nurbekdusyarov.uz/</loc>
+    <lastmod>2025-10-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Kurslar -->
+  <url>
+    <loc>https://nurbekdusyarov.uz/#courses</loc>
+    <lastmod>2025-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Aloqa -->
+  <url>
+    <loc>https://nurbekdusyarov.uz/#contact</loc>
+    <lastmod>2025-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Qo'shimcha sahifalar bo'lsa shu yerga qo'shing -->
+</urlset>
